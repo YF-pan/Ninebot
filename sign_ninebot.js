@@ -306,7 +306,7 @@ async function init() {
             authorization: process.env.NINEBOT_AUTHORIZATION
         });
     } else {
-        console.error("未配置任何账号信息");
+        console.error("未配置任何账号信息222");
         return;
     }
 
