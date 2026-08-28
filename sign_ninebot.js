@@ -319,7 +319,7 @@ async function init() {
             await bot.run();
             allResults.push({
                 name: account.name,
-                success: bot.logs.includes("签到成功") || bot.logs.includes("已签到"),
+                success: bot.logs.includes("签到成功") || bot.logs.includes("已签到."),
                 logs: bot.logs
             });
         } catch (e) {
