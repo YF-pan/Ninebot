@@ -77,7 +77,7 @@ class NineBot {
     // 执行签到
     async sign() {
         try {
-            console.log(`[${this.name}] 开始签到...`);
+            console.log(`[${this.name}] 开始签到....`);
             const responseData = await this.makeRequest(
                 "post",
                 this.endpoints.sign,
